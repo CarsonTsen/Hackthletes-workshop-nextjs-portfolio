@@ -9,14 +9,14 @@ const TAB_DATA = [
         id: "skills",
         content: (
           <ul className="list-disc pl-2">
-                <li>React</li>
+                <li>Object Oriented Development with Java</li>
                 <li>Next.js</li>
-                <li>JavaScript</li>
-                <li>Solidity</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Tailwind CSS</li>
+                <li>C</li>
                 <li>Python</li>
+                <li>C++</li>
+                <li>R Programming</li>
+                <li>SAS</li>
+                <li>SQL</li>
           </ul>
         ),
     },
@@ -25,17 +25,9 @@ const TAB_DATA = [
         id: "experiences",
         content: (
           <ul className="list-disc pl-2">
-            <li>ETH Singapore</li>
-            <li>ETH KL</li>
-            <li>ETH Online</li>
-            <li>ETHGlobal Superhack</li>
-            <li>Solana Hyperdrive</li>
-            <li>APUBCC Sparkathon</li>
-            <li>Encode Club</li>
-            <li>Google CTF</li>
-            <li>NUS Grey CTF</li>
-            <li>Tune Protect Hackathon</li>
-            <li>geNFesT Ideathon</li>
+            <li>4 Years of Retail Assistant / Cashier in Artfriend</li>
+            <li>2 Months of Service Crew in Vegelab</li>
+            <li>8 Months of Retail Assistant / Cashier in Watsons</li>
           </ul>
         ),
     },
@@ -69,9 +61,8 @@ const AboutMe = () => {
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
-                    <p className="text-base text-justify lg:text-lg">I am currently pursuing a degree in Cyber Security at APU, where I have been honing my skills in various technologies. I am familiar in frontend development, with expertise in React, Next.js, HTML, CSS, and I'm skilled in creating visually appealing and user-friendly interfaces using Tailwind CSS.
-                        Additionally, I've ventured into the world of blockchain development, particularly with Solidity, allowing me to build smart contracts for decentralized applications.
-                        My passion for technology and problem-solving has led me to actively participate in 11 hackathons this year, where I primarily serve as a Front End Developer. However, I am not limited to frontend tasks and often take on backend responsibilities, demonstrating my versatility and commitment to delivering complete solutions. </p>
+                    <p className="text-base text-justify lg:text-lg">I am currently pursuing a degree in Computer Science with specialism in Data Analytics at APU, where I have been honing my skills in various technologies. I am familiar in programming, with expertise in C, Python, Java, R and more.
+                        My passion for technology and problem-solving has led me to actively participate in other activities this year, where I primarily serve as a Back End Developer. However, I am not limited to backend tasks and often take on frontend responsibilities, demonstrating my versatility and commitment to delivering complete solutions. </p>
                     <div className="flex flex-row mt-8">
 {/* 1e */}
                         <TabButton 
